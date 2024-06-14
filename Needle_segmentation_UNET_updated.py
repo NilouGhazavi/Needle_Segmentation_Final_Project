@@ -75,19 +75,19 @@ from sklearn.model_selection import KFold
 #%% Load the data 
 # Create data generators
 
-
+# update the directories for training and testing datasets 
 # train_images 
-train_image_dir="/Users/Nilou Ghazavi/Desktop/Nilou/PhD Courses/Spring2024/Midterm Report/trainImages"
+train_image_dir="/trainImages"
 # train_masks 
-train_mask_dir="/Users/Nilou Ghazavi/Desktop/Nilou/PhD Courses/Spring2024/Midterm Report/trainMasks"
+train_mask_dir="/trainMasks"
 # test_images 
-test_image_dir="/Users/Nilou Ghazavi/Desktop/Nilou/PhD Courses/Spring2024/Midterm Report/testImages"
+test_image_dir="/testImages"
 # save predicted masks 
-save_directory = "/Users/Nilou Ghazavi/Desktop/Nilou/PhD Courses/Spring2024/Midterm Report/predictedMasks"
+save_directory = "/predictedMasks"
 # Augmented images 
-augmented_image_path = "/Users/Nilou Ghazavi/Desktop/Nilou/PhD Courses/Spring2024/Midterm Report/augmented_image"
+augmented_image_path = "/augmented_image"
 # Corresponding masks to augmented images 
-augmented_mask_path="/Users/Nilou Ghazavi/Desktop/Nilou/PhD Courses/Spring2024/Midterm Report/augmented_mask"
+augmented_mask_path="/augmented_mask"
 
 
 
